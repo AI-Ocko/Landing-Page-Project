@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.Header {
+  display: flex;
+}
+
+.Body1 {
+  display: flex;
+}
+
+.Body2 {
+  display: flex;
+}
+
+.Body3 {
+  display: flex;
+}
+
+.Body4 {
+  display: flex;
+}
+
+.Footer {
+  display: flex;
+}
