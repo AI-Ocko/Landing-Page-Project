@@ -19,6 +19,9 @@ a {
   display: flex;
   justify-content: space-between;
   min-height: 5vh;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .HeaderLinks {
@@ -48,5 +51,6 @@ a {
 
 .Footer {
   display: flex;
+  justify-content: center;
   min-height: 10vh;
 }
