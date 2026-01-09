@@ -32,6 +32,46 @@ a {
 .Body1 {
   display: flex;
   min-height: 35vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.LeftText,
+.RightImage {
+  color: white;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: space-around; */
+  justify-content: center;
+  flex: 1;
+  /* margin-top: 75px; */
+  /* margin-bottom: 75px; */
+}
+
+.LeftText {
+  margin-right: 25px;
+}
+
+p {
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  border: 0;
+  padding: 5px;
+  margin-right: 280px;
+  border-radius: 8px;
+}
+
+.RightImage {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .Body2 {
