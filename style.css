@@ -111,13 +111,37 @@ button {
 
 .Body3 {
   display: flex;
-  min-height: 30vh;
+  flex-direction: column;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  padding-right: 20rem;
+  padding-left: 20rem;
+}
+
+.quoted {
+  display: flex;
+  justify-content: end;
 }
 
 .Body4 {
   display: flex;
-  min-height: 25vh;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
 }
+
+.CallToAction {
+  width: 40rem;
+  height: 10rem;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding: 40px; */
+  padding-left: 100px;
+  /* padding-right: 100px; */
+  gap: 100px;
+}
+
 
 .Footer {
   display: flex;
